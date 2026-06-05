@@ -9,7 +9,7 @@ public class Car extends Vehicle {
         this.doors = doors;
 }
 
-@Override
+ @Override
     public void info ()
 {
     System.out.println(brand + " " + year + ", " + doors + " doors");

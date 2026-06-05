@@ -9,9 +9,10 @@ public class Vehicle {
     public Vehicle (String brand, int year)
     {
         this.brand=brand;
-        this.year=year;
-
+        this.year=year;}
+        public void info() {
         System.out.println(brand + " " + year);
+
 
 }
 }
